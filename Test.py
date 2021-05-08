@@ -1,6 +1,6 @@
 import discord
 client = discord.client
-class MyClient(discord.Client):
+@client.event:
        async def on_ready():
               print('Barter Bot is online'.format(client))
 class MyClient(discord.Client):
