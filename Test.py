@@ -11,4 +11,4 @@ class MyClient(discord.Client):
         if message.content.startswith('$hello'):
             await message.channel.send('Hello World!')
 
-client.logging(ODM4ODI4NDU0OTI0MjU1MjMz.YJAx4A.HF4YpS-DC5iRme9BwaFVLe8wTGY)
+client.logging()
